@@ -9,6 +9,7 @@ import { toDoWithServerMetaData} from './ToDoWithServer/router-data';
 import { basicFormsMetaData } from './BasicForms/router-data';
 import { basicReactHookFormsMetaData } from './BasicReactHookForms/router-data';
 import { orderFormMetaData } from './OrderForm/router-data';
+import { reactFirebaseMetaData } from './ReactFirebase/router-data';
 
 
 export const blockRouterMetaData = [
@@ -21,6 +22,7 @@ export const blockRouterMetaData = [
     basicFormsMetaData,
     basicReactHookFormsMetaData,
     orderFormMetaData,
+    reactFirebaseMetaData,
 
   
 ];
